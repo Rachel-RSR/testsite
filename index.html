@@ -1,1 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home</title>
+  
+  <!-- Montserrat font from Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
 
+  <!-- Link to custom stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Logo -->
+  <img src="logo.png" alt="Logo" class="logo" />
+
+  <!-- Navigation (optional) -->
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+  </nav>
+
+  <!-- Slideshow -->
+  <div class="carousel">
+    <img src="slide1.jpg" class="slide" style="display:block" />
+    <img src="slide2.jpg" class="slide" />
+    <img src="slide3.jpg" class="slide" />
+  </div>
+
+  <!-- Welcome Section -->
+  <h1>Welcome to Our Website 🌿</h1>
+  <p>Built with style and purpose—powered by GitHub Pages.</p>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 YourName. All rights reserved.</p>
+  </footer>
+
+  <!-- Slideshow script -->
+  <script>
+    let slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+      let slides = document.getElementsByClassName("slide");
+      for (let i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) { slideIndex = 1; }
+      slides[slideIndex - 1].style.display = "block";
+      setTimeout(showSlides, 3000); // Change image every 3 seconds
+    }
+  </script>
+</body>
+</html>
