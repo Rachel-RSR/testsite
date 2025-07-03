@@ -68,7 +68,7 @@ header {
   bottom: 30px;
   left: 50%;
   transform: translateX(-50%);
-  z-index: 3;
+  z-index: 10;
   display: flex;
   gap: 10px;
 }
@@ -76,7 +76,7 @@ header {
 .dot {
   height: 12px;
   width: 12px;
-  background-color: rgba(255, 255, 255, 0.6);
+  background-color: red;
   border-radius: 50%;
   cursor: pointer;
   transition: background-color 0.3s ease;
