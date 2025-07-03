@@ -15,12 +15,13 @@ header {
 }
 
 .logo {
-  width: 100px;        
+  width: 300px;        
   height: auto;
   display: block;
 }
 
 .slideshow {
+  background-color: black;
   position: relative;
   width: 100vw;
   height: 100vh;
@@ -74,9 +75,9 @@ header {
 }
 
 .dot {
-  height: 12px;
-  width: 12px;
-  background-color: red;
+  height: 16px;
+  width: 16px;
+  background-color: limegreen;
   border-radius: 50%;
   cursor: pointer;
   transition: background-color 0.3s ease;
