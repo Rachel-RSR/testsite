@@ -19,6 +19,10 @@ header {
   background-color: transparent;
 }
 
+header h1 {
+  color: #ffffff; 
+}
+
 .logo {
   width: 120px;        
   height: auto;
