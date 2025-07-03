@@ -58,7 +58,7 @@ header h1 {
 }
 .overlay-text {
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 2;
@@ -69,8 +69,14 @@ header h1 {
 }
 
 .overlay-text h2 {
-  font-size: 2.8rem;
+  font-size: 4rem;
   font-weight: 700;
+}
+
+.overlay-text p {
+  font-size: 4rem;
+  margin-top: 10px;
+  color: white;
 }
 
 .dots {
