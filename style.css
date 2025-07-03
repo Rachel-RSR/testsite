@@ -20,8 +20,9 @@ header {
 .slideshow {
   position: relative;
   width: 100%;
-  max-width: 600px;
-  margin: 0 auto;
+  max-width: 800px;
+  margin: 40px auto;
+  overflow: hidden;
 }
 
 .slide {
